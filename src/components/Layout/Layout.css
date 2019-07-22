@@ -84,13 +84,112 @@
 .Price {
     height: 100vh;
     width: 100%;
+    background-image: url('../Files/yoga_3.jpg');
+    opacity: 0.6;
+}
+
+.PriceContent {
+    position: relative;
+    width: 70%;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: #fff;
     background-color: hsla(220, 100%, 50%, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.PriceDivide {
+    display: flex;
+    flex-direction: row;
+}
+
+.PriceText {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.2rem;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.PriceTable {
+    left: 0;
+    font-family: 'Jura', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: initial;
+}
+
+.Table {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.PriceTextContent {
+    font-family: 'Jura', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-transform: initial;
+    right: 0; 
+}
+
+.PriceTextContent p {
+    padding: 10px;
 }
 
 .Teacher {
     height: 100vh;
     width: 100%;
     background-color: hsla(220, 76%, 38%, 0.7);
+}
+
+.TeacherContent {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+}
+
+.TeacherText {
+    font-family: 'Jura', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #fff; 
+    left: 0;
+    background-color: hsla(220, 100%, 50%, 0.2);
+}
+
+.TeacherImage {
+    background-image: url('../Files/yoga_4.jpg');
+    right: 0;
+    /* Position image */
+    background-size: 100vh;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+}
+
+.TeacherTextContent {
+    height: 100%;
+    position: relative;
+}
+
+.TeacherTextContent h3 {
+    font-weight: 400;
+    padding: 10px;
+}
+
+.TeacherTextContent p {
+    padding: 10px;
+}
+
+.Bottom {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    padding: 80px;
 }
 
 .Imprint {
