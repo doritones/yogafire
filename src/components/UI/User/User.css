@@ -1,0 +1,39 @@
+.User {
+    position: fixed;
+    margin: 30px;
+    z-index: 2;  
+    background-color: hsla(20, 100%, 50%, 0.7);
+    padding: 15px;
+    border-radius: 25px;
+    right: 0;
+}
+
+.Text {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.DropDown {
+    display: none;
+    position: absolute;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: hsla(0, 100%, 50%, 0.7);
+    padding: 15px;
+    border-radius: 25px;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateY(15px)
+}
+
+.DropDown p {
+    padding: 5px;
+}
+
+  .User:hover .DropDown {display: block;}

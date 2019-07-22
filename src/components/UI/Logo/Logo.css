@@ -1,0 +1,15 @@
+.Logo {
+    position: fixed;
+    margin: 30px;
+    z-index: 2;  
+    background-color: hsla(220, 100%, 50%, 0.2);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.Text {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}

@@ -1,0 +1,100 @@
+.Main {
+    background-image: url('../Files/yoga.jpg');
+    background-size: cover;
+    background-position-y: 85%;
+    height: 100vh;
+    width: 100%;
+}
+
+.MainContent {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: #fff;
+    background-color: hsla(220, 100%, 50%, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.MainText {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.2rem;
+    position: relative;
+    margin: 0;
+}
+
+.Method {
+    height: 100vh;
+    width: 100%;
+}
+
+.MethodContent {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+
+.MethodImage {
+    background-image: url('../Files/yoga_2.jpg');
+    left: 0;
+    /* Flip Image */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    /* Position image */
+    background-size: 190vh;
+    background-position-x: 95%;
+    background-repeat: no-repeat;
+}
+
+.MethodText {
+    font-family: 'Jura', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem; 
+    right: 0;
+    background-color: hsla(220, 100%, 50%, 0.2);
+}
+
+.MethodTextContent {
+    padding: 80px;
+}
+
+.MethodTextContent h3 {
+    font-weight: 400;
+    padding: 10px;
+}
+
+.MethodTextContent p {
+    padding: 10px;
+}
+
+.Price {
+    height: 100vh;
+    width: 100%;
+    background-color: hsla(220, 100%, 50%, 0.5);
+}
+
+.Teacher {
+    height: 100vh;
+    width: 100%;
+    background-color: hsla(220, 76%, 38%, 0.7);
+}
+
+.Imprint {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(220, 100%, 50%, 0.9);
+}
